@@ -1,0 +1,18 @@
+{
+  "name": "gunther",
+  "version": "0.0.1",
+  "description": "Kinda homu bot for gitlab",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.6.4",
+    "chalk": "^1.1.1",
+    "express": "^4.13.4",
+    "node-gitlab": "selvagsz/gitlab",
+    "yam": "0.0.18"
+  }
+}
