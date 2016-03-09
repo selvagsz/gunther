@@ -8,11 +8,12 @@
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "babel-cli": "^6.6.4",
+  "dependencies": {
     "chalk": "^1.1.1",
-    "express": "^4.13.4",
+    "gitlab-webhook-handler": "^1.0.1",
     "node-gitlab": "selvagsz/gitlab",
+    "pleasant-progress": "^1.1.0",
+    "rsvp": "^3.2.1",
     "yam": "0.0.18"
   }
 }

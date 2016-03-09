@@ -1,29 +1,6 @@
-var express = require('express');
-var Gunther = require('./lib/gunther');
+'use strict';
 
-var app = express();
+const Gunther = require('./lib/gunther-es6');
 
-app.get('/', function (req, res) {
-  res.send('Hello World!');
-});
-
-app.post('/comments', function(req, res) {
-  var chunkString = '';
-  req.on('data', function(chunk) {
-    chunkString += chunk;
-  });
-
-  req.on('end', function() {
-    var data = JSON.parse(chunkString);
-    var gunther = new Gunther(data);
-    gunther.respond();
-
-    // Respond with `200`
-    res.writeHead(200, "OK", {'Content-Type': 'text/html'});
-    res.end();
-  });
-});
-
-app.listen(3000, function () {
-  console.log('Gunther is listening on port 3000!');
-});
+let gunther = new Gunther();
+gunther.run();
