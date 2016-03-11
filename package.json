@@ -1,6 +1,6 @@
 {
   "name": "gunther",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Kinda homu bot for gitlab",
   "main": "index.js",
   "scripts": {
@@ -10,10 +10,13 @@
   "license": "ISC",
   "dependencies": {
     "chalk": "^1.1.1",
+    "ember-cli-string-utils": "^1.0.0",
+    "get-caller-file": "^1.0.1",
     "gitlab-webhook-handler": "^1.0.1",
+    "glob": "^7.0.3",
     "node-gitlab": "selvagsz/gitlab",
     "pleasant-progress": "^1.1.0",
     "rsvp": "^3.2.1",
-    "yam": "0.0.18"
+    "yam": "twokul/yam#bbcff46a702ab3ea1fd9a2cb77977b1ff1a5554c"
   }
 }
