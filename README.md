@@ -1,6 +1,6 @@
 # Gunther
 
-A bot that is designed to integrate with gitlab & gitlab-ci. This project will aim to build an architecture for adding more tasks. Generic tasks will reside inside the project which can serve as examples.
+A bot that is designed to integrate with gitlab & gitlab-ci. This project will aim to build an architecture for adding more tasks based on the project requirements. Generic tasks will reside inside the project which can serve as examples.
 
 ## Features
 
