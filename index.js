@@ -1,6 +1,6 @@
 'use strict';
 
-const Gunther = require('./lib/gunther-es6');
+const Gunther = require('./lib/gunther');
 
 let gunther = new Gunther();
 gunther.run();

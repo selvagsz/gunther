@@ -1,47 +1,30 @@
 # Gunther
 
-A bot that is designed to integrate with gitlab & gitlab-ci.
+A bot that is designed to integrate with gitlab & gitlab-ci. This project will aim to build an architecture for adding more tasks. Generic tasks will reside inside the project which can serve as examples.
 
 ## Features
 
--  Listens for the comments in the MRs & executes the commands
-
-``` bash
-@gunther r   # Runs the tests
-
-@gunther r+  # Runs the tests & merge the MR
-```
-
 -  Smart enough to learn stuffs. Remember, its a stupid bot. It learns what you teach.
 
-```
-@gunther learn "service workers" "http://www.html5rocks.com/en/tutorials/service-worker/introduction/"
-```
+  ```
+    @gunther learn "service workers" "http://www.html5rocks.com/en/tutorials/service-worker/introduction/"
+  ```
 
 - Has a good IQ to recollect his learnings.
 
-```
-@gunther remember "service workers"?
-```
+  ```
+  @gunther remember "service workers"?
+  ```
 
 - Option to flash his learnings
 
-```
-@gunther forget "service workers"
-```
-
-- Your close friend. Dance with him when you did something azm or owe him a beer
-
-```
-@gunther cheers!
-
-@gunther dance!
-```
-
+  ```
+  @gunther forget "service workers"
+  ```
 
 
 ## Inspiration
 
-Homu for github
+[Homu for github](!https://github.com/barosl/homu)
 
-Slackbot
+Slack bots

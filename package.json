@@ -1,7 +1,7 @@
 {
   "name": "gunther",
   "version": "0.0.0",
-  "description": "Kinda homu bot for gitlab",
+  "description": "A bot assistant for gitlab",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
